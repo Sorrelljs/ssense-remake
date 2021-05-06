@@ -1,0 +1,26 @@
+<%- include('./partials/header') %>
+
+<% let categories = ['All Categories', 'Accessories', 'Bags', 'Clothing', 'Shoes'] %>
+<% let brands = ['Armani', 'Gucci', 'Prada', 'Alexander Mcqueen', 'Jeff', 'gg', 'sdfsdf', 'dfs', 'dsfs', 'dfsasee'] %>
+
+<nav>
+    
+    <ul class = 'side-nav-filters'>
+        <div class="first-side-nav">
+            <% for(let i = 0; i < categories.length; i++) { %>
+                <li><%= categories[i] %> </li>
+                <% } %>
+            </div>
+            <br>
+            <br>
+            <div class = "second-side-nav">     
+                <% for(let i = 0; i < brands.length; i++) { %>
+                    <li><%= brands[i] %> </li>
+                    <% } %>
+                </div>
+        </ul>
+    </nav>
+        <h1>Menswear</h1>
+        <p>clothing</p>
+    
+ <%- include('./partials/footer') %>

@@ -1,0 +1,26 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0%;
+}
+
+.box {
+    display: flex;
+}
+
+.nav-list a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-list li {
+    line-height: 15px;
+}
